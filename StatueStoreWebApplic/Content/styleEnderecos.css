@@ -1,0 +1,17 @@
+﻿.itens {
+    padding: 5px 5px 5px 5px;
+    outline-color: black;
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+}
+
+.itens:hover {
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+}
+
+.card {
+    font-family: Roboto, sans-serif
+}

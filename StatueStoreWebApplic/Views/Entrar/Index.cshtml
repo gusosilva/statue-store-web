@@ -1,0 +1,31 @@
+﻿@model StatueStoreWebApplic.Models.Login
+
+@{
+    ViewBag.Title = "Entrar - Statue Store";
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+}
+
+<link rel="stylesheet" type="text/css" href="~/Content/styleEntrar.css" />
+
+<div class="wrapper fadeInDown top10" id="divTudo">
+    <div id="formContent">
+        <!-- Tabs Titles -->
+        <!-- Icon -->
+        <div class="fadeIn first">
+            <img src="~/Content/imagens/usericon.png" id="icon" alt="User Icon" />
+        </div>
+        <!-- Login Form -->
+        @using (Html.BeginForm(FormMethod.Post)) {
+            @Html.TextBoxFor(m => m.Email, new { @class = "fadeIn second", @placeholder = "Email", @type = "text" })
+            @Html.TextBoxFor(m => m.Senha, new { @class = "fadeIn third", @placeholder = "Senha", @type = "password" })
+            @*<input type="text" class="fadeIn third" placeholder="password">*@
+            <input type="submit" class="fadeIn fourth" value="Entrar">
+            <br />
+            <a class="underlineHover" href="/EsqueciMinhaSenha" id="esqueceuSenha">Esqueceu sua senha ? </a>
+        }
+        <!-- Remind Passowrd -->
+        <div id="formFooter">
+            @Html.ActionLink("Ainda não possui conta ? Cadastre-se", "Index", "Signin", null, new { @class = "underlineHover" })
+        </div>
+    </div>
+</div>

@@ -1,0 +1,635 @@
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll.config
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe.config
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.rsp
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe.config
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.rsp
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.AppContext.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Console.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Compression.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Claims.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.ValueTuple.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe.config
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.rsp
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Webpages.Deployment.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Webpages.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Webpages.Razor.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Webpages.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Webpages.Deployment.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Webpages.Razor.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csproj.CopyComplete
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\APRENDENDO MVC\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csprojAssemblyReference.cache
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll.config
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.pdb
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe.config
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.rsp
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe.config
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.rsp
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Managed.Core.targets
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.AppContext.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Collections.Immutable.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Console.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Compression.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Reflection.Metadata.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.AccessControl.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Claims.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Principal.Windows.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.ValueTuple.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XmlDocument.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe.config
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.rsp
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe.config
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.Web.Infrastructure.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\X.PagedList.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\X.PagedList.Mvc.Bootstrap4.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\X.PagedList.Mvc.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.xml
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.xml
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.xml
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.xml
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.xml
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.xml
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Helpers.resources.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Mvc.resources.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Razor.resources.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.resources.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csprojAssemblyReference.cache
+C:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csproj.CoreCompileInputs.cache
+C:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csproj.CopyComplete
+C:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.dll
+C:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.pdb
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll.config
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.pdb
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe.config
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.rsp
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe.config
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.rsp
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.AppContext.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Console.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Compression.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Claims.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.ValueTuple.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe.config
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.rsp
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\X.PagedList.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\X.PagedList.Mvc.Bootstrap4.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\X.PagedList.Mvc.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.xml
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.xml
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.xml
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.xml
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.xml
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csprojAssemblyReference.cache
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csproj.CoreCompileInputs.cache
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csproj.CopyComplete
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.dll
+C:\Users\Shapeness\Downloads\StatueStoreWebApplic\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.pdb
+F:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csprojResolveAssemblyReference.cache
+F:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.pdb
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll.config
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.pdb
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe.config
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.rsp
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe.config
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.rsp
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Managed.Core.targets
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.AppContext.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Collections.Immutable.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Console.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Compression.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Reflection.Metadata.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.AccessControl.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Claims.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Principal.Windows.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.ValueTuple.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XmlDocument.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe.config
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.rsp
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe.config
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.Web.Infrastructure.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.xml
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.xml
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.xml
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.xml
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.xml
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.xml
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Helpers.resources.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Mvc.resources.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Razor.resources.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.resources.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll.config
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.pdb
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe.config
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.rsp
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe.config
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.rsp
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Managed.Core.targets
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.AppContext.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Collections.Immutable.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Console.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Compression.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Reflection.Metadata.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.AccessControl.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Claims.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Principal.Windows.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.ValueTuple.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XmlDocument.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe.config
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.rsp
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe.config
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.Web.Infrastructure.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.xml
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.xml
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.xml
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.xml
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.xml
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.xml
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Helpers.resources.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Mvc.resources.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Razor.resources.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.resources.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csproj.CoreCompileInputs.cache
+D:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csproj.CopyComplete
+D:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.pdb
+D:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csprojAssemblyReference.cache
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll.config
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.pdb
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe.config
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.rsp
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe.config
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.rsp
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Managed.Core.targets
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.AppContext.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Collections.Immutable.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Console.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Compression.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Reflection.Metadata.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.AccessControl.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Claims.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Principal.Windows.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.ValueTuple.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XmlDocument.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe.config
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.rsp
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe.config
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.Web.Infrastructure.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\X.PagedList.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\X.PagedList.Mvc.Bootstrap4.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\X.PagedList.Mvc.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.xml
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.xml
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.xml
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.xml
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.xml
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.xml
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Helpers.resources.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Mvc.resources.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Razor.resources.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.resources.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csprojResolveAssemblyReference.cache
+E:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.dll
+E:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.pdb
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Newtonsoft.Json.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Net.Http.Formatting.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.WebHost.dll
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Newtonsoft.Json.xml
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Net.Http.Formatting.xml
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.xml
+F:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.WebHost.xml
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Newtonsoft.Json.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Net.Http.Formatting.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.WebHost.dll
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Newtonsoft.Json.xml
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Net.Http.Formatting.xml
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.xml
+D:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.WebHost.xml
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll.config
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.pdb
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe.config
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.rsp
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe.config
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.rsp
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Managed.Core.targets
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.AppContext.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Collections.Immutable.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Console.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Compression.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Reflection.Metadata.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.AccessControl.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Claims.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Principal.Windows.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.ValueTuple.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XmlDocument.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe.config
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.rsp
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe.config
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.Web.Infrastructure.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Newtonsoft.Json.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Net.Http.Formatting.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.WebHost.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Newtonsoft.Json.xml
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Net.Http.Formatting.xml
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.xml
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.xml
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.WebHost.xml
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.xml
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.xml
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.xml
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.xml
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.xml
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Helpers.resources.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Mvc.resources.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Razor.resources.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.resources.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csprojResolveAssemblyReference.cache
+G:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.dll
+G:\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.pdb
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll.config
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\StatueStoreWebApplic.pdb
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.exe.config
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csc.rsp
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.exe.config
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\csi.rsp
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.AppContext.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Console.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Compression.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Claims.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.ValueTuple.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.exe.config
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\vbc.rsp
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\Newtonsoft.Json.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Net.Http.Formatting.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.WebHost.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\Newtonsoft.Json.xml
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Net.Http.Formatting.xml
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Helpers.xml
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.xml
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Http.WebHost.xml
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Mvc.xml
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.Razor.xml
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.xml
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\System.Web.WebPages.Razor.xml
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csprojAssemblyReference.cache
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csproj.CoreCompileInputs.cache
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.csproj.CopyComplete
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.dll
+C:\Users\ninja\Desktop\Entrega 2019 (Statue Store)\APLICACAO_WEB -\StatueStoreWebApplic\StatueStoreWebApplic\obj\Debug\StatueStoreWebApplic.pdb

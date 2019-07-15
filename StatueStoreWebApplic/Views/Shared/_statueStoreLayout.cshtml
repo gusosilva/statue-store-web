@@ -1,0 +1,147 @@
+﻿@using System.Data;
+@using System.Data.SqlClient
+@using StatueStoreWebApplic.Models
+
+
+@{
+    List<string> grupoMasculino = new List<string>();
+    List<string> grupoFeminino = new List<string>();
+    List<string> grupoUnissex = new List<string>();
+
+    BDConexao conexao = new BDConexao();
+    conexao.connection.Open();
+
+    /* SELECT nomeGrupo FROM GRUPO WHERE
+     * IDGRUPO IN(SELECT IDGRUPO FROM SUBGRUPO
+     WHERE IDSUBGRUPO IN (SELECT IDSUBGRUPO FROM PRODUTO
+     WHERE SEXO = ''))*/
+    conexao.command.CommandText = "SELECT nomeGrupo FROM GRUPO WHERE IDGRUPO IN " +
+                "(SELECT IDGRUPO FROM SUBGRUPO WHERE IDSUBGRUPO IN " +
+                "(SELECT IDSUBGRUPO FROM PRODUTO WHERE (SEXO = 'M' OR SEXO = 'U'))) AND nomeGrupo != 'Indefinido'";
+
+    SqlDataReader dr = conexao.command.ExecuteReader();
+
+    if (dr.HasRows) {
+        while (dr.Read()) {
+            grupoMasculino.Add(dr.GetString(0));
+        }
+    }
+
+    dr.Close();
+
+    conexao.command.CommandText = "SELECT nomeGrupo FROM GRUPO WHERE IDGRUPO IN " +
+                "(SELECT IDGRUPO FROM SUBGRUPO WHERE IDSUBGRUPO IN " +
+                "(SELECT IDSUBGRUPO FROM PRODUTO WHERE (SEXO = 'F' OR SEXO = 'U'))) AND nomeGrupo != 'Indefinido'";
+
+    dr = conexao.command.ExecuteReader();
+
+    if (dr.HasRows) {
+        while (dr.Read()) {
+            grupoFeminino.Add(dr.GetString(0));
+        }
+    }
+
+
+    conexao.connection.Close();
+    dr.Close();
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="~/Content/styles.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Grand+Hotel&display=swap" rel="stylesheet">
+</head>
+<body id="idStatueBody">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/Home" style="font-family: 'Grand Hotel', LemonMilk; font-size: 1.8em;padding-right: 2%">Statue Store &nbsp;</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+
+                <li class="nav-item active">
+                    @Html.ActionLink("Início", "Index", "Home", null, new { @Class = "nav-link" })
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                        Masculino
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #1c1b23">
+                        @foreach (var grupo in grupoMasculino) {
+                            @Html.ActionLink(grupo, "Index", "Produtos_Masculino", new { g = grupo }, new { @Class = "nav-link", @style = "color: white" })
+                        }
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                        Feminino
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #1c1b23">
+
+                        @foreach (var grupo in grupoFeminino) {
+                            @Html.ActionLink(grupo, "Index", "Produtos_Feminino", new { g = grupo }, new { @Class = "nav-link", @style= "color: white" })
+                        }
+
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    @Html.ActionLink("Meu carrinho", "Index", "MeuCarrinho", null, new { @Class = "nav-link"})
+                </li>
+            </ul>
+            <ul class="navbar-nav" id="navbarrightside">
+                @{
+                    if (Session["idUsuario"] != null) {
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdow" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                                @Session["nomeUsuario"]
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdow" style="background-color: #1c1b23">
+                                @Html.ActionLink("Minha conta", "Index", "MinhaConta", null, new { @Class = "nav-link", @style = "color: white" })
+                                @Html.ActionLink("Meus Pedidos", "Index", "MeusPedidos", null, new { @Class = "nav-link", @style = "color: white" })
+                                @Html.ActionLink("Sair", "Logout", "Entrar", null, new { @Class = "nav-link", @style = "color: white" })
+                            </div>
+                        </li>   
+                    }
+                    else {
+                        @Html.ActionLink("Entrar", "Index", "Entrar", null, new { @Class = "nav-link", @style = "color: white" })
+                    }
+                }
+            </ul>
+        </div>
+    </nav>
+    <div class="bodyy">
+        @RenderBody()
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<style>
+
+    body {
+        background-color: white
+    }
+
+    nav {
+        font-family: Raleway;
+        background-color: #e91d63;
+        z-index: 5000;
+        box-shadow: 1px 1px 4px #656565;
+    }
+
+
+</style>

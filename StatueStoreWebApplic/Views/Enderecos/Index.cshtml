@@ -1,0 +1,56 @@
+﻿@model IEnumerable<StatueStoreWebApplic.Models.EnderecoVisualiza>
+@{
+    ViewBag.Title = "Meus endereços";
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+}
+
+<link href="~/Content/styleEnderecos.css" type="text/css" rel="stylesheet" />
+
+<div class="container col-8 top10" style="">
+    <div class="row">
+        <h2 style="font-family: LemonMilk"> Endereços <span style="color: #9656b7">Cadastrados</span></h2>
+    </div>
+    <div class="top5" id="tudo">
+        <div class="row">
+            @foreach (var end in Model) {
+                <div class="card endereco" style="width: 14rem; margin-right:2%">
+                    <div class="card-body">
+                        @using (Html.BeginForm(FormMethod.Post)) {
+                            
+                            <h5 class="card-text"><b>Estado: <span>@end.Estado</span></b></h5>
+                            <h5 class="card-text"><b>CEP: <span>@end.Cep</span></b></h5>
+                            @Html.ActionLink("Quero Este!", "Index", "EscolheEndereco", new { @idec = @end.Id }, new { @class = "btn btn-outline-dark top15" })
+                            @Html.ActionLink("Excluir :c", "Excluir", "EscolheEndereco", new { @idec = @end.Id }, new { @class = "btn btn-danger top2" })
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="row">
+            @Html.ActionLink("Novo endereço", "Index", "CadastroEndereco", null, new { @class = "btn btn-outline-primary top15" })
+        </div>
+    </div>
+</div>
+
+<style>
+    body{ 
+        font-family: Roboto;
+    }
+
+    .card {
+        font-family: Roboto;
+        font-weight: bold;
+    }
+
+    .endereco {
+        box-shadow: 0.5px 0.5px 6px grey;
+        transform: translate(0, 0px);
+        transition: all 0.3s ease-in-out;
+    }
+
+        .endereco:hover {
+            transform: translate(0, -15px);
+            box-shadow: 0.5px 0.5px 6px #d3a4fa;
+            transition: all 0.3s ease-in-out;
+        }
+</style>

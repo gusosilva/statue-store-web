@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC881CAD-816F-46B8-A4E8-2E5FFB0EC887}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StatueStoreWebApplic</RootNamespace>
+    <AssemblyName>StatueStoreWebApplic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.6\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.6\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="X.PagedList, Version=7.6.0.0, Culture=neutral, PublicKeyToken=00b6c4f97602e5e8, processorArchitecture=MSIL">
+      <HintPath>..\packages\X.PagedList.7.6.0\lib\net461\X.PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="X.PagedList.Mvc, Version=7.6.0.0, Culture=neutral, PublicKeyToken=c6e0b5b21f916f4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\X.PagedList.Mvc.7.6.0\lib\net461\X.PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="X.PagedList.Mvc.Bootstrap4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\X.PagedList.Mvc.Bootstrap4.7.5.0\lib\net452\X.PagedList.Mvc.Bootstrap4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Imagens\camisa2.jpg" />
+    <Content Include="Content\Imagens\imgAnunciantes\anunciante1.jpeg" />
+    <Content Include="Content\Imagens\para.jpg" />
+    <Content Include="Content\Imagens\usericon.png" />
+    <Content Include="Content\simple.html" />
+    <Content Include="Content\styleCartaoCredito.css" />
+    <Content Include="Content\styleEnderecos.css" />
+    <Content Include="Content\styleEntrar.css" />
+    <Content Include="Content\styleFazendoPedido.css" />
+    <Content Include="Content\styleSignin.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\styleMeuCarrinho.css" />
+    <Content Include="Content\styleProdutoDetalhes.css" />
+    <Content Include="Content\StyleProdutos.css" />
+    <Content Include="Content\styles.css" />
+    <Content Include="dbProdutoImagens\13.jpg" />
+    <Content Include="dbProdutoImagens\AA.jpg" />
+    <Content Include="dbProdutoImagens\acacac.jpeg" />
+    <Content Include="dbProdutoImagens\ae.jpg" />
+    <Content Include="dbProdutoImagens\aratg.jpg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\fonts\LemonMilk.otf" />
+    <Content Include="Content\fonts\LemonMilkbold.otf" />
+    <Content Include="Content\fonts\raleway.ttf" />
+    <Content Include="Content\fonts\Roboto-Regular.ttf" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AlterarSenhaController.cs" />
+    <Compile Include="Controllers\ApiController.cs" />
+    <Compile Include="Controllers\CadastroCartaoController.cs" />
+    <Compile Include="Controllers\CadastroEnderecoController.cs" />
+    <Compile Include="Controllers\CartaoCreditoController.cs" />
+    <Compile Include="Controllers\ComprandoProdutoController.cs" />
+    <Compile Include="Controllers\CompraRealizadaController.cs" />
+    <Compile Include="Controllers\DetalhePedidoController.cs" />
+    <Compile Include="Controllers\EnderecosController.cs" />
+    <Compile Include="Controllers\EntrarController.cs" />
+    <Compile Include="Controllers\EscolheEnderecoController.cs" />
+    <Compile Include="Controllers\EsqueciMinhaSenhaController.cs" />
+    <Compile Include="Controllers\ExcluirItemCarrinhoController.cs" />
+    <Compile Include="Controllers\FazendoPedidoController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MeuCarrinhoController.cs" />
+    <Compile Include="Controllers\MeusPedidosController.cs" />
+    <Compile Include="Controllers\MinhaContaController.cs" />
+    <Compile Include="Controllers\OpsController.cs" />
+    <Compile Include="Controllers\ProdutoDetalhesController.cs" />
+    <Compile Include="Controllers\Produtos_FemininoController.cs" />
+    <Compile Include="Controllers\Produtos_MasculinoController.cs" />
+    <Compile Include="Controllers\RedefinindoSenhaController.cs" />
+    <Compile Include="Controllers\RedirectAnuncioController.cs" />
+    <Compile Include="Controllers\SigninController.cs" />
+    <Compile Include="Controllers\VisaoGeralCompraController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AcompanharPedidos.cs" />
+    <Compile Include="Models\AlertQuantidadeProd.cs" />
+    <Compile Include="Models\Anuncios.cs" />
+    <Compile Include="Models\BDConexao.cs" />
+    <Compile Include="Models\DBModels\Anuncio.cs" />
+    <Compile Include="Models\DBModels\CartaoDeCredito.cs" />
+    <Compile Include="Models\DBModels\Cliente.cs" />
+    <Compile Include="Models\DBModels\Endereco.cs" />
+    <Compile Include="Models\DBModels\Envio.cs" />
+    <Compile Include="Models\DBModels\Grupo.cs" />
+    <Compile Include="Models\DBModels\Pedido.cs" />
+    <Compile Include="Models\DBModels\ProdutoDisplay.cs" />
+    <Compile Include="Models\DBModels\ProdutoPersonalizado.cs" />
+    <Compile Include="Models\DBModels\StatusPedido.cs" />
+    <Compile Include="Models\keyGen.cs" />
+    <Compile Include="Models\Login.cs" />
+    <Compile Include="Models\MeuCarrinhoModel.cs" />
+    <Compile Include="Models\ModelProdutos.cs" />
+    <Compile Include="Models\DBModels\DetalheProduto.cs" />
+    <Compile Include="Models\ProdutoCarrinho.cs" />
+    <Compile Include="Models\ProdutosEAnuncios.cs" />
+    <Compile Include="Models\RepoProdutos.cs" />
+    <Compile Include="Models\DBModels\Tamanhos.cs" />
+    <Compile Include="Models\CookiesPublicos.cs" />
+    <Compile Include="Models\statueEmailSender.cs" />
+    <Compile Include="Models\StatueStoreEncrypt.cs" />
+    <Compile Include="Models\VisaoGeral.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Shared\_statueStoreLayout.cshtml" />
+    <Content Include="Views\MeuCarrinho\Index.cshtml" />
+    <Content Include="Views\ProdutoDetalhes\Index.cshtml" />
+    <Content Include="Views\Produtos_Masculino\Index.cshtml" />
+    <Content Include="Views\Produtos_Feminino\Index.cshtml" />
+    <Content Include="Views\Signin\Index.cshtml" />
+    <Content Include="Views\Entrar\Index.cshtml" />
+    <Content Include="Views\FazendoPedido\Index.cshtml" />
+    <Content Include="Views\CadastroCartao\Index.cshtml" />
+    <Content Include="Views\CadastroEndereco\Index.cshtml" />
+    <Content Include="Views\CartaoCredito\Index.cshtml" />
+    <Content Include="Views\Enderecos\Index.cshtml" />
+    <Content Include="Views\VisaoGeralCompra\Index.cshtml" />
+    <Content Include="Views\CompraRealizada\Index.cshtml" />
+    <Content Include="Views\MinhaConta\Index.cshtml" />
+    <Content Include="Views\AlterarSenha\Index.cshtml" />
+    <Content Include="Views\EsqueciMinhaSenha\Index.cshtml" />
+    <Content Include="Views\RedefinindoSenha\Index.cshtml" />
+    <Content Include="Views\MeusPedidos\Index.cshtml" />
+    <Content Include="Views\Ops\Index.cshtml" />
+    <Content Include="Views\DetalhePedido\Index.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="obj\" />
+    <Folder Include="Views\Api\" />
+    <Folder Include="Views\ComprandoProduto\" />
+    <Folder Include="Views\EscolheEndereco\" />
+    <Folder Include="Views\ExcluirItemCarrinho\" />
+    <Folder Include="Views\RedirectAnuncio\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61017</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61017/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

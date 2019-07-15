@@ -1,0 +1,158 @@
+﻿@model StatueStoreWebApplic.Models.ProdutosEAnuncios
+
+@{
+    ViewBag.Title = "Ínicio - Statue Store";
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+}
+
+@*Imagem está na ~/Content/Styles.css*@
+
+<div class="container-fluid frontpage" id="primeiradiv">
+
+    <div class="col-12 row center" id="StatueStore">
+        <span>STATUE STORE</span>
+    </div>
+</div>
+
+<div class="container col-12" id="conteudo">
+    <div class="container camisa" style="position: relative;margin-left: 5%">
+        <img src="~/Content/imagens/frontr.jpg" class="StatueImages" style="">
+        <a href="/ProdutoDetalhes?id=2" class="linkcamisa">Comprar</a>
+    </div>
+
+    <div class="container camisa" style="position: relative; margin-right: 5%">
+        <img src="~/Content/imagens/camisa2.jpg" class="StatueImages" style="">
+        <a href="/ProdutoDetalhes?id=3" class="linkcamisa">Comprar</a>
+    </div>
+    
+    <div class="container camisa" style="position: relative; margin-left: 5%">
+        <img src="~/Content/imagens/camisa3.jpg" class="StatueImages" style="">
+        <a href="/ProdutoDetalhes?id=1" class="linkcamisa">Comprar</a>
+    </div>
+
+    <div id="idAnuncios" class="top15">
+        <div class="row" class=""> <small class="center"><i>Anunciantes</i></small></div>
+        <div class="top5">
+            @if (Model.anuncios.ElementAtOrDefault(0) != null) {
+                <a href="/RedirectAnuncio?id=@Model.anuncios.ElementAt(0).IdDetalhe&link=@Model.anuncios.ElementAt(0).Link" target="_blank"><img src="@Model.anuncios.ElementAt(0).urlImagem" alt="add" class="anuncioImagem endereco" /></a>
+            }
+            @if (Model.anuncios.ElementAtOrDefault(1) != null) {
+                <a href="/RedirectAnuncio?id=@Model.anuncios.ElementAt(1).IdDetalhe&link=@Model.anuncios.ElementAt(1).Link" target="_blank"><img src="@Model.anuncios.ElementAt(1).urlImagem" alt="add" class="anuncioImagem" /></a>
+            }
+
+            @if (Model.anuncios.ElementAtOrDefault(2) != null) {
+                <a href="/RedirectAnuncio?id=@Model.anuncios.ElementAt(2).IdDetalhe&link=@Model.anuncios.ElementAt(2).Link" target="_blank"><img src="@Model.anuncios.ElementAt(2).urlImagem" alt="add" class="anuncioImagem" /></a>
+            }
+
+            @if (Model.anuncios.ElementAtOrDefault(3) != null) {
+                <a href="/RedirectAnuncio?id=@Model.anuncios.ElementAt(3).IdDetalhe&link=@Model.anuncios.ElementAt(3).Link" target="_blank"><img src="@Model.anuncios.ElementAt(3).urlImagem" alt="add" class="anuncioImagem" /></a>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+
+    .camisa{
+        height: auto;
+        width: 50%;
+    }
+
+    .linkcamisa {
+        font-size: 1.1em;
+        color: #e91d63;
+        border: 1px solid #e91d63;
+        padding: 0.3em 1em 0.3em 1em;
+        text-decoration: none;
+        position: absolute;
+        bottom: 1em;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        transition: 0.05s ease-in-out;
+    }
+        .linkcamisa:hover {
+            color: white;
+            border: none;
+            background-color: #e91d63;
+            text-decoration: none;
+            transition: 0.06s ease-in-out;
+        }
+
+    .StatueImages {
+        width: 100%;
+    }
+
+    #idAnuncios a {
+        margin-left: 7%;
+    }
+
+    .imagemhome {
+        height: auto;
+        width: 100%;
+    }
+
+    #conteudo {
+    }
+
+    .anuncioImagem {
+        height: auto;
+        width: 15%;
+    }
+
+    #primeiradiv {
+        top: 0;
+        background: url("../../Content/imagens/para2.jpg");
+        height: 45vw;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #imgStatue {
+        height: 15vw;
+        width: auto;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .center {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: max-content;
+    }
+
+    .frontpage {
+        font-family: LemonMilkBold;
+    }
+
+
+    #StatueStore {
+        font-size: 5em;
+        color: #ffffff;
+        padding-top: 20%;
+    }
+
+    .rosa {
+        color: #620075
+    }
+
+    .card {
+        font-family: Roboto;
+    }
+
+    .endereco {
+        box-shadow: 0.5px 0.5px 6px grey;
+        transform: translate(0, 0px);
+        transition: all 0.3s ease-in-out;
+    }
+
+        .endereco:hover {
+            transform: translate(0, -15px);
+            box-shadow: 0.5px 0.5px 6px #d3a4fa;
+            transition: all 0.3s ease-in-out;
+        }
+</style>
