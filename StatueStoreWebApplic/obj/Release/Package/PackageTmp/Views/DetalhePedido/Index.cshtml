@@ -1,0 +1,139 @@
+﻿@model StatueStoreWebApplic.Models.VisaoGeral
+
+@{
+    ViewBag.Title = "Detalhes do pedido";
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+}
+
+<div class="container col-10 top10">
+    <div class="col-12 top5">
+        <div class="row top5">
+            @Html.ActionLink("Voltar", "Index", "MeusPedidos", null, new { @class = "btn btn-outline-dark" })
+        </div>
+
+        <div class="row top5">
+            <h4>Total</h4>
+        </div>
+        <div class="row">
+            <span style="font-size: 1.3em">@Model.Total.ToString("C")</span>
+        </div>
+
+        <div class="row top5">
+            <div class="col-5">
+                <div class="row">
+                    <b>Meio de envio</b>
+                </div>
+                <div class="row">
+                    @Model.Meio
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="row">
+                    <b>Frete</b>
+                </div>
+                <div class="row">
+                    @Model.PrecoFrete.ToString("C")
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row top5">
+            <h5>Produtos</h5>
+        </div>
+        <div class="row">
+            @foreach (var item in Model.produtos) {
+                <div class="card endereco" style="width: 10rem; height: 14rem;color:black">
+                    <img class="card-img-top" src="@item.Imagem" alt="Card image cap">
+                    <div class="card-body">
+                        <center>
+                            <span class="card-title" style="font-size: 1.2em;"><i>@item.Nome</i></span><br />
+                            <h7 class="card-text" style="font-size: 1em;">@item.Preco.ToString("C")</h7><br />
+                        </center>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="row top5">
+            <div class="col-5">
+                <div class="row">
+                    <h5>Tipo de pagamento</h5>
+                </div>
+                <div class="row">
+                    @Model.TipoDePagamento
+                </div>
+            </div>
+        </div>
+
+        <div class="row top5">
+            <h5>Endereco</h5>
+        </div>
+        <div class="card row endereco" style="width: 50rem;">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">@Model.endereco.Pais</h6><br />
+                <h7>UF: <b> @Model.endereco.Estado </b></h7> <br />
+                <h7>Cidade: <b> @Model.endereco.Cidade </b></h7> <br />
+                <h7>Bairro: <b> @Model.endereco.Bairro </b></h7> <br />
+                <h7>Cep: <b> @Model.endereco.Cep </b></h7> <br />
+                <h7>Bairro: <b> @Model.endereco.Bairro </b></h7> <br />
+                <h7>Rua: <b> @Model.endereco.Logradouro </b></h7>&ensp; &ensp;<h7>Nº: <b> @Model.endereco.Numero </b></h7> <br />
+                <h7>Tipo de Logradouro: <b> @Model.endereco.TipoLogradouro </b></h7> <br />
+                @{
+                    if (!string.IsNullOrWhiteSpace(Model.endereco.Complemento)) {
+                        <h7>Complemento: <b> @Model.endereco.Complemento </b></h7> <br />
+                    }
+                }
+            </div>
+        </div>
+
+
+
+
+        <div class="row top5">
+            <span style="">Data prevista para entrega </span>
+        </div>
+        <div class="row">
+            <b>@Model.DataPrevista.Substring(0, 11)</b>
+        </div>
+        <div class="row top10">
+
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        font-family: Roboto
+    }
+
+    nav {
+        z-index: 5000;
+    }
+
+    .btn {
+    }
+
+    .card {
+        margin-right: 2%;
+        font-family: Roboto;
+    }
+
+    .endereco {
+        box-shadow: 0.5px 0.5px 6px grey;
+        z-index: 0;
+        transform: translate(0, 0px);
+        transition: all 0.3s ease-in-out;
+    }
+
+        .endereco:hover {
+            transform: translate(0, -8px);
+            box-shadow: 0.5px 0.5px 6px #d3a4fa;
+            transition: all 0.3s ease-in-out;
+        }
+
+    #preco {
+        font-family: Roboto;
+        font-size: 1.2em;
+    }
+</style>

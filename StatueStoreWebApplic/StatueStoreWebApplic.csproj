@@ -34,6 +34,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>AllFilesInProjectFolder</FilesToIncludeForPublish>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -118,7 +119,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Imagens\camisa2.jpg" />
-    <Content Include="Content\Imagens\imgAnunciantes\anunciante1.jpeg" />
     <Content Include="Content\Imagens\para.jpg" />
     <Content Include="Content\Imagens\usericon.png" />
     <Content Include="Content\simple.html" />
@@ -132,11 +132,6 @@
     <Content Include="Content\styleProdutoDetalhes.css" />
     <Content Include="Content\StyleProdutos.css" />
     <Content Include="Content\styles.css" />
-    <Content Include="dbProdutoImagens\13.jpg" />
-    <Content Include="dbProdutoImagens\AA.jpg" />
-    <Content Include="dbProdutoImagens\acacac.jpeg" />
-    <Content Include="dbProdutoImagens\ae.jpg" />
-    <Content Include="dbProdutoImagens\aratg.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
@@ -145,11 +140,15 @@
     <Content Include="Content\fonts\LemonMilkbold.otf" />
     <Content Include="Content\fonts\raleway.ttf" />
     <Content Include="Content\fonts\Roboto-Regular.ttf" />
+    <None Include="Properties\PublishProfiles\statuestore - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\StatueStore - Web Deploy1.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -252,6 +251,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Imagens\imgAnunciantes\" />
+    <Folder Include="dbProdutoImagens\" />
     <Folder Include="obj\" />
     <Folder Include="Views\Api\" />
     <Folder Include="Views\ComprandoProduto\" />

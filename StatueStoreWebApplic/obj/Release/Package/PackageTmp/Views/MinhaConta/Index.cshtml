@@ -1,0 +1,63 @@
+﻿@model StatueStoreWebApplic.Models.Cliente
+@{
+    ViewBag.Title = "Minha conta";
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+}
+
+
+<div class="container col-12 top5">
+    <div class="row">
+        <div class="col-4">
+            <img src="~/Content/imagens/usericon.png" />
+        </div>
+        <div class="col-8 top5">
+            <div class="row"><b>Email</b></div>
+            <div class="row">@Model.Email</div>
+            <div class="row top5">
+                <div class="col-5">
+                    <div class="row"><b>Nome</b></div>
+                    <div class="row">@Session["nomeUsuario"]</div>
+                </div>
+                <div class="col-7 ">
+                    <div class="row"><b>Sobrenome</b></div>
+                    <div class="row">@Model.Sobrenome</div>
+                </div>
+            </div>
+            <div class="row top5">
+                <div class="col-5">
+                    <div class="row"><b>Senha</b></div>
+                    <div class="row">************</div>
+                </div>
+                <div class="col-7">
+                    <div class="row">
+                        @Html.ActionLink("Alterar Senha", "Index", "AlterarSenha", null, new { @class = "btn btn-link" })
+                    </div>
+                </div>
+            </div>
+            <div class="row top5"><b>CPF</b></div>
+            <div class="row">@Model.Cpf.Insert(3, ".").Insert(7, ".").Insert(11, "-")</div>
+
+            <div class="row top5"><b>Sexo</b></div>
+            <div class="row">
+                @{
+                    if (Model.Sexo.Equals("M")) { <span>Masculino</span> }
+                    else if (Model.Sexo.Equals("F")) { <span>Feminino</span> }
+                }
+            </div>
+
+            <div class="row top5"><b>Data de Nascimento</b></div>
+            <div class="row">@Model.DataNascimento.ToString().Substring(0,11)</div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+                    font-family: Roboto;
+                }
+
+    .container img {
+                width: 80%;
+                height: auto;
+                }
+</style>

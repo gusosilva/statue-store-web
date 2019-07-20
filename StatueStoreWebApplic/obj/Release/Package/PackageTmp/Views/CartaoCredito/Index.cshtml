@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Meus cartões";
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+}
+<link href="~/Content/styleCartaoCredito.css" type="text/css" rel="stylesheet" />
+
+<div class="container col-5 top10">
+    <div class="row">
+        <h2>Você ja possui um <span style="color: #c582fa">cartão de crédito</span> cadastrado !</h2>
+    </div>
+    <div class="row">
+        <div class="top5 col-6">
+            <img src="~/Content/imagens/cartaovector.png" style="width: auto; height: 150px" />
+        </div>
+        <div class="top5">
+            <span id="idDigitos">Últimos 4 Dígitos: <br /><span style="color: #a268cf"> @ViewBag.Digitos</span></span>
+        </div>
+    </div>
+    <div class="row top5 form-group">
+        @*<button class="btn btn-primary form-control" style="width: 80%">Prosseguir utilizando o cartão cadastrado.</button>*@
+        @Html.ActionLink("Prosseguir utilizando o cartão cadastrado", "Index", "Enderecos" , null, new { @class = "btn btn-primary form-control", @style= "width: 80%" })
+    </div>
+    <div class="row top5 form-group">
+        @Html.ActionLink("Cadastrar outro cartão", "Index", "CadastroCartao", null, new { @class = "btn btn-outline-secondary form-control", @style = "width: 80%" })
+    </div>
+</div>

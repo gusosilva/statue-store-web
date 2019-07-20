@@ -1,0 +1,104 @@
+﻿@{
+    ViewBag.Title = "Meu carrinho";
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+    decimal total = 0;
+}
+@model IEnumerable<StatueStoreWebApplic.Models.ProdutoCarrinho>
+
+
+<div id="body" class="container top10">
+    <div class="container top5">
+        @foreach (var produto in Model) {
+            @*<div class="row col-12 produtoItem">
+                <div class="col-4">
+                    <img src="@produto.Imagem" />
+                </div>
+                <div class="col-5">
+                    <div style="float:left">
+                        <div class="row">@produto.Nome</div>
+                        <div class="row">@produto.Preco</div>
+                        <div class="row">@produto.Quantidade</div>
+                        <div class="row">@produto.Tamanho</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    @Html.ActionLink("Excluir", "Index", "ExcluirItemCarrinho", new { @idProduto = @produto.IdProduto, @tamanho = @produto.Tamanho }, null)
+                </div>
+            </div>*@
+            <div class="card bg-light mb-3 col-12 produtoItem endereco">
+                <div class="card-body row">
+                    <div class="col-4">
+                        <img src="@produto.Imagem" style="height: auto; width: 20vw" />
+                    </div>
+                    <div class="col-5" style="font-size: 1.2em;font-family: Roboto">
+                        <div class="">
+                            <div class="row detalhesproduto top5"><b>Nome:</b> &ensp;@produto.Nome</div>
+                            <div class="row detalhesproduto top2"><b>Preco: </b>&ensp;@produto.Preco.ToString("C")</div>
+                            <div class="row detalhesproduto top2"><b>Quantidade:</b>&ensp;@produto.Quantidade</div>
+                            <div class="row detalhesproduto top2"><b>Tamanho:</b>&ensp;@produto.Tamanho</div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                    <div class="col-1" >
+                        @Html.ActionLink("Excluir", "Index", "ExcluirItemCarrinho", new { @idProduto = @produto.IdProduto, @tamanho = @produto.Tamanho }, new { @class = "btn btn-danger", @role = "button" })
+                    </div>
+                </div>
+            </div>
+
+            total += produto.Preco * produto.Quantidade;
+        }
+
+
+        @if (Model.Any()) {
+            <div class="row col-12" style="font-size: 1.2em">
+                <span>Total: <span style="color: #ce5bf5">@total.ToString("C")</span></span>
+            </div>
+            @Html.ActionLink("Comprar", "Index", "FazendoPedido", null, new { @class = "btn btn-primary top5" })
+        }
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.Deletebtn').click(function () {
+
+            var id2 = $(this).closest('a').attr('id');
+
+            debugger
+            $.ajax({
+                url: "/Meucarrinho/Deletar",
+                type: 'post', // assuming your action is marked with HttpDelete Attribute or do not need this option if action is marked with HttpGet attribute
+                data:
+                {
+
+                    ID_Delete: "'" + id2 + "'"
+                },
+                async: true,
+                success: function (sucesso) {
+                    alert(sucesso)
+                }
+            });
+
+        });
+    });
+</script>
+
+
+
+<style>
+    .card {
+        font-family: Roboto;
+    }
+
+    .endereco {
+        box-shadow: 0.5px 0.5px 6px grey;
+        transform: translate(0, 0px);
+        transition: all 0.3s ease-in-out;
+    }
+
+        .endereco:hover {
+            transform: translate(0, -15px);
+            box-shadow: 0.5px 0.5px 6px #d3a4fa;
+            transition: all 0.3s ease-in-out;
+        }
+</style>

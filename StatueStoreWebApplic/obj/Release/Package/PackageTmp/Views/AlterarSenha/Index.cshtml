@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Alterar Senha";
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+}
+
+<div class="container col-11 top10">
+
+        <b style="font-size: 1.2em">Alterar senha</b>
+    @using (Html.BeginForm("Index", "AlterarSenha",FormMethod.Post, null)) {
+        <div class="form-group top5" style="width: 40%">
+            @*<label for="senha1" class="form-control">Senha atual</label>*@
+            <input type="password" class="form-control" id="senha1" name="senha1" aria-describedby="emailHelp" placeholder="Senha atual">
+            <input type="password" class="form-control top5" id="senha2" name="senha2" aria-describedby="emailHelp" placeholder="Nova senha">
+            <input type="password" class="form-control top2" id="senha3" name="senha3" aria-describedby="emailHelp" placeholder="Repetir nova senha">
+            <small id="emailHelp" class="form-text text-muted top2" style="font-size: 0.9em; width: 100vw">Sua senha é devidamente guardada e criptografada na nossa base de dados.</small>
+
+            <button type="submit" class="btn btn-dark top5">Alterar senha</button>
+        </div>
+    }
+
+</div>
+
+<style>
+    body {
+        font-family: Roboto;
+    }
+</style>

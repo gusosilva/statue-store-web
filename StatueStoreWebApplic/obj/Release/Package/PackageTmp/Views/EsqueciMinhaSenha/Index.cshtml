@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Recuperar senha";
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+}
+
+<div class="container col-11 top10">
+
+    <b style="font-size: 1.2em">Esqueci minha senha</b>
+    @using (Html.BeginForm("Index", "EsqueciMinhaSenha", FormMethod.Post, null)) {
+        <div class="form-group top5" style="width: 40%">
+            @*<label for="senha1" class="form-control">Senha atual</label>*@
+
+            <label for="email1" class="">Email</label>
+            <input type="email" class="form-control" id="email1" name="email" aria-describedby="emailHelp" placeholder="exemplo@exemplo.com">
+            <button type="submit" class="btn btn-dark top5">Enviar-me um email para redefinição de senha</button>
+        </div>
+    }
+
+</div>
+
+<style>
+    body {
+        font-family: Roboto;
+    }
+</style>
