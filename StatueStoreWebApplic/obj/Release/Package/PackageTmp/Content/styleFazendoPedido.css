@@ -1,0 +1,14 @@
+﻿.formulario {
+    background-color: #ffffff;
+    border-radius: 5px 5px;
+    padding: 3em 3em 3em 3em;
+    font-family: Roboto;
+}
+
+.formulariobotao {
+    padding-top: 1em;
+}
+
+#botao{
+    top: 200px;
+}

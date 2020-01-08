@@ -1,0 +1,55 @@
+﻿@model IEnumerable<StatueStoreWebApplic.Models.AcompanharPedidos>
+@{
+    ViewBag.Title = "Meus Pedidos";
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+}
+
+
+<div class="container col-6 top10">
+
+    <center>
+        <span style="font-size:1.3em"> Histórico de pedidos</span>
+    </center>
+    <div class="top5">
+
+        @foreach (var item in Model) {
+            <div class="card bg-light mb-3 col-12 produtoItem top5 endereco" style="width:100%">
+                <a href="/DetalhePedido?id=@item.IdPedido" style="text-decoration: none;color: Black">
+                    <div class="card-body row">
+                        <div class="col-10" style="font-size: 1.2em;font-family: Roboto">
+                            <div class="">
+                                <div class="row detalhesproduto top"><b class="rosa">Forma de pagamento:&ensp;</b>@item.TipoDePagamento</div>
+                                <div class="row detalhesproduto top2"><b class="rosa">Data do pedido: </b>&ensp;@item.DataPedido.ToString().Substring(0, 11)</div>
+                                <div class="row detalhesproduto top2"><b class="rosa">Situação:</b>&ensp;@item.StatusPedido</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+
+
+</div>
+
+<style>
+    .rosa {
+        color: #620075
+    }
+
+    .card {
+        font-family: Roboto;
+    }
+
+    .endereco {
+        box-shadow: 0.5px 0.5px 6px grey;
+        transform: translate(0, 0px);
+        transition: all 0.3s ease-in-out;
+    }
+
+        .endereco:hover {
+            transform: translate(0, -15px);
+            box-shadow: 0.5px 0.5px 6px #d3a4fa;
+            transition: all 0.3s ease-in-out;
+        }
+</style>

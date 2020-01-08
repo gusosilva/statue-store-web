@@ -1,0 +1,47 @@
+﻿@model IEnumerable<string>
+@{
+    ViewBag.Title = "Realizando compra";
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+}
+
+<link href="~/Content/styleFazendoPedido.css" type="text/css" rel="stylesheet"/>
+
+<div class="container top7">
+    <div class="col-10">
+        <h2>Escolha o tipo de pagamento</h2>
+        <div class="form-group col-5 top5 aa endereco">
+            @using (Html.BeginForm("Index", "FazendoPedido", FormMethod.Post, new { @class="formulario"})) {
+
+                foreach (var tipo in Model) {
+                    <div class="radio formulariobotao">
+                        <label><input type="radio" name="tipopgmto" value="@tipo">&ensp;@tipo</label>
+                    </div>
+                }
+                <button href="#" class="btn btn-primary top10" id="botao">Continuar</button>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        font-family: Roboto;
+    }
+
+    .aa {
+        font-family: Roboto;
+        font-weight: bold;
+    }
+
+    .endereco {
+        box-shadow: 0.5px 0.5px 6px grey;
+        transform: translate(0, 0px);
+        transition: all 0.3s ease-in-out;
+    }
+
+        .endereco:hover {
+            transform: translate(0, -15px);
+            box-shadow: 0.5px 0.5px 6px #d3a4fa;
+            transition: all 0.3s ease-in-out;
+        }
+</style>

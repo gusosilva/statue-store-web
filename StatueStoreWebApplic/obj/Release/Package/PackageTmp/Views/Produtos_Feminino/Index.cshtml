@@ -1,0 +1,177 @@
+﻿
+@{
+    ViewBag.Title = "Produtos Femininos";
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+}
+
+@model StatueStoreWebApplic.Models.ModelProdutos
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .bd-example-modal-lg .modal-dialog {
+        display: table;
+        position: relative;
+        margin: 0 auto;
+        top: calc(50% - 24px);
+    }
+
+        .bd-example-modal-lg .modal-dialog .modal-content {
+            background-color: transparent;
+            border: none;
+        }
+</style>
+
+
+<div class="container-fluid top5">
+    <div class="row">
+        <!-- Coluna da esquerda -->
+        <div class="col-2 colunasLaterais" id="colunaEsquerda" style="margin-top: 0.5rem">
+            <div class="row">
+                <form>
+                    <div class="form-group left5 top5">
+                        <label for="idBuscar">Buscar</label>
+                        <input type="text" class="form-control" id="idBuscar" placeholder="Ex: Tênis">
+                    </div>
+                    <div class="form-group left5 top5">
+                        <label for="boxTamanho">Tamanho</label>
+                        <select id="boxTamanho" class="form-control">
+                            <option value="todos" selected>Selecione</option>
+
+                            @foreach (var tam in Model.tamanhos) {
+                                <option value="@tam">@tam</option>
+                            }
+
+                        </select>
+                    </div>
+                    <div class="form-group left5 top5">
+                        <label for="boxFiltro">Filtrar Por:</label>
+                        <select id="boxFiltro" class="form-control">
+                            <option value="Todos" selected>Selecione</option>
+                            <option value="porNomeAz"> Por nome (a-z) </option>
+                            <option value="porNomeZa"> Por nome (z-a) </option>
+                            <option value="maiorValor"> Maior Valor  </option>
+                            <option value="menorValor"> Menor Valor </option>
+                        </select>
+                    </div>
+                    <div class="form-group left5 top5">
+                        <button id="btnBusca" type="button" class="btn btn-secondary">TESTE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Catalogo do meio -->
+        <div class="col-10">
+            <div id="Spinner" class="modal fade bd-example-modal-lg" data-backdrop="static" data-keyboard="false" tabindex="-1">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content" style="width: 48px">
+                        <div class="spinner-border text-danger" style="width: 5rem; height: 5rem" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                @foreach (var item in Model.produtos) {
+                    <div class="card endereco" style="width: 15rem; color:black">
+                        <a href="/ProdutoDetalhes?id=@Html.DisplayFor(modelItem => item.Id)" style="text-decoration: none">
+                            <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.imagem)" alt="Card image cap">
+                            <div class="card-body">
+                                <center>
+                                    <span class="card-title" style="font-size: 1.2em;">@Html.DisplayFor(modelItem => item.nome) </span><br />
+                                    <h7 class="card-text" style="font-size: 1em;">R$ @Html.DisplayFor(modelItem => item.preco)</h7><br />
+                                </center>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="~/Content/StyleProdutos.css" />
+
+<script>
+    jQuery(function () {
+        $("select").change(function () {
+            var buscaValue = $('#idBuscar').val();
+            var tamanhoValue = $("#boxTamanho option:selected").val();
+            var filtroValue = $("#boxFiltro option:selected").val();
+
+            var URL = "&busca=" + buscaValue + "&filtro=" + filtroValue + "&tamanho=" + tamanhoValue;
+
+            let param = searchParams.get('g')
+
+            Document.location = URL;
+            alert(param);
+        })
+    })
+
+    jQuery(function () {
+        $('#btnBusca').on('click', function () {
+            /* filtro busca tamanho*/
+            var buscaValue = $('#idBuscar').val();
+            var tamanhoValue = $("#boxTamanho option:selected").val();
+            var filtroValue = $("#boxFiltro option:selected").val();
+
+
+            var getElements = "filtro=" + filtroValue + "&busca=" + buscaValue + "&tamanho=" + tamanhoValue;
+
+            var searchParams = new URLSearchParams(window.location.search);
+
+            if (searchParams.has('g')) {
+                var link = window.location.origin + window.location.pathname + "?g=" + searchParams.get('g') + "&" + getElements;
+            }
+            else {
+                var link = window.location.origin + window.location.pathname + "?" + getElements;
+            }
+
+            window.location.href = link;
+
+
+            var $loading = $('#Spinner').hide();
+            $(document)
+                .ajaxStart(function () {
+
+                    $loading.show();
+                    modal()
+                })
+                .ajaxStop(function () {
+                    $loading.hide();
+                    modal()
+
+                });
+
+        })
+
+    })
+
+
+    function modal() {
+        $('.modal').modal('show');
+        setTimeout(function () {
+            $('.modal').modal('hide');
+        }, 3000);
+    }
+
+</script>
+
+<style>
+    .card {
+        font-family: Roboto;
+    }
+
+    .endereco {
+        box-shadow: 0.5px 0.5px 6px grey;
+        transform: translate(0, 0px);
+        transition: all 0.3s ease-in-out;
+    }
+
+        .endereco:hover {
+            transform: translate(0, -15px);
+            box-shadow: 0.5px 0.5px 6px #d3a4fa;
+            transition: all 0.3s ease-in-out;
+        }
+</style>

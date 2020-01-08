@@ -1,0 +1,152 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+/*FONTS*/
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/raleway.ttf')
+}
+
+@font-face {
+    font-family: 'LemonMilkBold';
+    src: url('fonts/LemonMilkbold.otf');
+}
+
+@font-face {
+    font-family: 'LemonMilk';
+    src: url('fonts/LemonMilk.otf');
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+}
+
+.bodyy {
+    background-color: white;
+    background-size: cover cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo {
+    font-family: 'Roboto', Calibri;
+    font-weight: 900;
+    box-shadow: 0.1px 0.1px 5px;
+}
+
+.titulo-navbar {
+    font-family: 'Roboto', Calibri;
+}
+
+
+.intro {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.top2 {
+    margin-top: 2%;
+}
+
+.top5 {
+    margin-top: 5%;
+}
+
+.top7 {
+    margin-top: 7%;
+}
+
+.top10 {
+    margin-top: 10%;
+}
+
+.top15 {
+    margin-top: 15%;
+}
+
+.top17 {
+    margin-top: 17%;
+}
+.top20 {
+    margin-top: 20%;
+}
+.top25 {
+    margin-top: 25%;
+}
+.top35 {
+    margin-top: 35%;
+}
+
+.top30 {
+    margin-top: 30%;
+}
+
+.left5 {
+    margin-left: 5%;
+}
+
+.left7 {
+    margin-left: 7%;
+}
+
+.left10 {
+    margin-left: 10%;
+}
+
+.left15 {
+    margin-left: 15%;
+}
+
+.left17 {
+    margin-left: 17%;
+}
+
+.left20 {
+    margin-left: 20%;
+}
+.left25 {
+    margin-left: 25%;
+}
+.left35 {
+    margin-left: 35%;
+}
+
+.left30 {
+    margin-left: 30%;
+}
+
+/* NAVBAR */
+
+#navbarrightside {
+    color: white;
+}
+
+nav ul li {
+    margin-right: 4em;
+}
+
+/*nav ul li:first-child {
+    margin-left: 2rem;
+}*/
+/*foi isso aqui que eu tirei pra alinhar o dropdown*/
+
+/* CONTEUDO DA PAGINA */
+
+
+@media screen and (max-width: 600px) {
+    #subtitle {
+        font-size: 1em;
+        top: 55%;
+    }
+
+    #title {
+        font-size: 2em;
+    }
+}
+
+/* front page */
+

@@ -1,0 +1,142 @@
+﻿
+@{
+    ViewBag.Title = Model.Nome;
+    Layout = "~/Views/Shared/_statueStoreLayout.cshtml";
+}
+
+@model StatueStoreWebApplic.Models.DetalheProduto
+
+<div class="container top7 divProduto">
+    <div class="row">
+        <div class="col-md-7 col-sm-12" style="">
+            <img src="@Html.DisplayFor(modelItem => Model.Imagem)" class="img-fluid" id="imagemProduto" />
+        </div>
+        <div class="col-md-5 col-sm-12" style="width: 100% ">
+            <div class="container-fluid">
+                <div class="row">
+                    <h4 style="font-family: LemonMilk; font-size: 3em">@Html.DisplayFor(modelItem => Model.Nome)</h4>
+                </div>
+
+                <div class="row">
+                    <h6>@Html.DisplayFor(modelItem => Model.Modelo) - @Html.DisplayFor(modelItem => Model.Marca)</h6>
+                </div>
+
+                <div class="row top2">
+                    <h3 style="color: #59006b">R$@Html.DisplayFor(modelItem => Model.PrecoVenda)</h3>
+                </div>
+
+                <div class="row cinzaEscuro">
+                    <h4>@Html.DisplayFor(modelItem => Model.DescricaoRed)</h4>
+                </div>
+
+                <div class="row top2">
+                    <span>Quantidade disponível: @Model.quantidade</span>
+                </div>
+
+                <div class="row top5">
+                    <div class="form-group" style="width: 100%;">
+                        <label for="sel1">Tamanho </label>
+                        <select class="form-control" id="selectTamanho" required>
+                            <option selected>Selecione</option>
+                            @foreach (var tamanho in Model.tamanhos) {
+                                <option value=@tamanho>@tamanho</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row cinzaEscuro top5">
+                    <div class="form-group">
+                        <label for="qtd">Quantidade </label>
+                        <div class="quantity" id="qtd" style="display: block">
+                            <input id="txtQuantidade" type="number" min="1" max="100" step="1" value="1" required>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row top10 form-group">
+                    <button type="button" class="btn btn-outline-dark form-control" id="btnComprar">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container top5 divProduto cinzaEscuro">
+    <div class="row justify-content-center ">
+        <center>
+            <div class="">
+                <h5 class="text-center">@Html.DisplayFor(modelItem => Model.Descricao) </h5>
+            </div>
+        </center>
+    </div>
+</div>
+
+<style>
+    body {
+        font-family:;
+    }
+
+    #btnComprar {
+        background-color: #820794;
+        border-color: #820794;
+        color: white;
+    }
+
+        #btnComprar:hover {
+            background-color: #4d0757;
+            border-color: #4d0757;
+            color: white;
+        }
+</style>
+
+<link href="~/Content/styleProdutoDetalhes.css" type="text/css" rel="stylesheet">
+
+<script language="javascript">
+
+    jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity input');
+    jQuery('.quantity').each(function () {
+        var spinner = jQuery(this),
+            input = spinner.find('input[type="number"]'),
+            btnUp = spinner.find('.quantity-up'),
+            btnDown = spinner.find('.quantity-down'),
+            min = input.attr('min'),
+            max = input.attr('max');
+
+        btnUp.click(function () {
+            var oldValue = parseFloat(input.val());
+            if (oldValue >= max) {
+                var newVal = oldValue;
+            } else {
+                var newVal = oldValue + 1;
+            }
+            spinner.find("input").val(newVal);
+            spinner.find("input").trigger("change");
+        });
+
+        btnDown.click(function () {
+            var oldValue = parseFloat(input.val());
+            if (oldValue <= min) {
+                var newVal = oldValue;
+            } else {
+                var newVal = oldValue - 1;
+            }
+            spinner.find("input").val(newVal);
+            spinner.find("input").trigger("change");
+        });
+
+    });
+
+    jQuery(function () {
+        $('#btnComprar').on('click', function () {
+            var qtd = $("#txtQuantidade").val();
+            var tama = $("#selectTamanho").val();
+            var link = window.location.origin + "/ComprandoProduto" + "?id=@Model.Id&qtd=" + qtd + "&tamanho=" + tama;
+
+            window.location.href = link;
+        });
+
+    });
+</script>
