@@ -1,6 +1,6 @@
 ## Informações Importantes
 
-Os arquivos nesse branch foram feitos para rodar localmente, sem a hospedagem em qualquer servidor em nuvem, esse aplicativo funciona em conjunto com o banco de dados encontrado no repositório [statue-store-db](https://github.com/EspetacularGus/statue-store-db)
+Os arquivos nesse branch foram feitos para rodar **localmente**, sem a hospedagem em qualquer servidor em nuvem, esse aplicativo funciona em conjunto com o banco de dados encontrado no repositório [statue-store-db](https://github.com/EspetacularGus/statue-store-db)
 
 Todas as imagens utilizadas para os produtos são inseridas localmente no diretório *StatueStoreWebApplic/dpProdutoImagens/* pelo aplicativo C# encontrado em [statue-store-c](https://github.com/EspetacularGus/statue-store-c)
 
