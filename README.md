@@ -1,11 +1,10 @@
 ## Informações Importantes
 
-Os arquivos nesse branch foram feitos para rodar via Web App na Azure, esse aplicativo funciona em conjunto com o banco de dados encontrado no repositório [statue-store-db](https://github.com/EspetacularGus/statue-store-db)
+Os arquivos nesse branch foram feitos para rodar localmente, sem a hospedagem em qualquer servidor em nuvem, esse aplicativo funciona em conjunto com o banco de dados encontrado no repositório [statue-store-db](https://github.com/EspetacularGus/statue-store-db)
 
-Todas as imagens utilizadas para os produtos são inseridas no Microsoft Azure Storage pelo aplicativo C# encontrado em [statue-store-c](https://github.com/EspetacularGus/statue-store-c)
+Todas as imagens utilizadas para os produtos são inseridas localmente no diretório *StatueStoreWebApplic/dpProdutoImagens/* pelo aplicativo C# encontrado em [statue-store-c](https://github.com/EspetacularGus/statue-store-c)
 
-Todas as imagens utilizadas para os anúncios no rodapé são inseridas no Microsoft Azure Storage pelo aplicativo Java encontrado em [statue-store-java](https://github.com/EspetacularGus/statue-store-java)
-
+Todas as imagens utilizadas para os anúncios no rodapé são inseridas localmente no diretório *StatueStoreWebApplic/imgAnunciantes/* pelo aplicativo Java encontrado em [statue-store-java](https://github.com/EspetacularGus/statue-store-java)
 
 ## Manual do Usuário
 
