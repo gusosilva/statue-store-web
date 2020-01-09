@@ -1,6 +1,6 @@
 ## Informações Importantes
 
-Os arquivos nesse branch foram feitos para rodar via Web App nos servidores em nuvem da *Azure* esse aplicativo funciona em conjunto com o banco de dados encontrado no repositório [statue-store-db](https://github.com/EspetacularGus/statue-store-db)
+Os arquivos nesse branch foram feitos para rodar via Web App nos servidores em nuvem da **Azure** esse aplicativo funciona em conjunto com o banco de dados encontrado no repositório [statue-store-db](https://github.com/EspetacularGus/statue-store-db)
 
 Todas as imagens utilizadas para os produtos são inseridas no *Microsoft Azure Storage* pelo aplicativo C# encontrado em [statue-store-c](https://github.com/EspetacularGus/statue-store-c)
 
