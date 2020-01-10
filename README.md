@@ -6,6 +6,10 @@ Todas as imagens utilizadas para os produtos são inseridas no *Microsoft Azure 
 
 Todas as imagens utilizadas para os anúncios no rodapé são inseridas no *Microsoft Azure Storage* pelo aplicativo Java encontrado em [statue-store-java](https://github.com/EspetacularGus/statue-store-java)
 
+## API Web Service
+
+A API RESTful que se encontra rodando junto com o site em *localhost/api* funciona em conjunto com o [aplicativo mobile](https://github.com/EspetacularGus/statue-store-android) e atua como ponte para transferência de dados entre o app no celular do usuário e o banco de dados geral do sistema.
+
 ## Manual do Usuário
 
 Nosso website possui sua home com nossos produtos e alguns ads de nossos anunciantes
